@@ -1,0 +1,105 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url("rsz_slide2.jpg");
+	  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+#image_head{
+	margin-left:50px;
+}
+#quest{
+	color:white;
+	margin:0;
+	font-size:1.2em;
+	font-weight: bold;
+}
+.navbar_ele{
+	width:100%;
+	position:fixed;
+	margin:0;
+	font-family: "Segoe UI";
+	background-image:linear-gradient(to right,#14b1bb,#13a4da);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.findjob:hover{
+	letter-spacing: 3px;
+	transform: translateX(20px);
+	transform: translateY(10px);
+	transition-duration: 1s;
+}
+li a{
+	display:block;
+	padding:20px;
+	color:white;
+	margin:0;
+	font-size:1em;
+	font-weight: bold;
+}
+li a:hover, .dropdown:hover .dropbtn{
+	background-color:black;
+	transition-duration: 1s;
+}
+li a:hover, .dropdown2:hover .dropbtn2{
+	background-color:black;
+	transition-duration: 1s;
+}
+a{
+	text-decoration:none;
+	font-size: 1.1em;
+}
+ul{
+	float:right;
+	margin:0;
+	padding:0;
+	margin-right:20px;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+}
+.list li{
+	display:inline-block;
+	margin:0;
+}
+.dropdown-content,.dropdown-content2{
+	display:none;
+	position:absolute;
+	min-width:100px;
+	background-color: black;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.dropdown-content a{
+	display:block;
+	border-bottom:2px solid #4d4d4d;
+	color:white;
+	font-size: 1.1em;
+	font-weight:normal;
+}
+.dropdown-content a:hover{
+	background-color:#1a1a1a;
+	transition-duration: 1s;
+}
+.dropdown-content2 a:hover{
+	background-color:#1a1a1a;
+	transition-duration: 1s;
+}
+.dropdown-content2 a{
+	display:block;
+	border-bottom:2px solid #4d4d4d;
+	color:white;
+	font-size: 1.1em;
+	font-weight:normal;
+}
+.dropbtn,.dropbtn2{
+	position:relative;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown2:hover .dropdown-content2{
+	display: block;
+}

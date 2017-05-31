@@ -1,0 +1,121 @@
+
+.abc
+{
+color:red;
+font-size:120px;
+font-family:Times New Roman;
+text-align:center;
+}
+
+.xyz
+{
+color:green;
+font-size:50px;
+font-family:Times New Roman;
+text-align:center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+ li:last-child {
+    border-right: none;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #8A2BE2;
+  border: none;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  align:center;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.def
+{
+
+background-image:url('interview.png');
+height: 500px;
+width: 10000%; 
+}
+
+.gif
+{
+width:500%;
+height:50%;
+color:hotpink;
+font-family:Courier;
+}
+
+
+tr,td
+{
+padding:1px;
+border:1px solid blue;
+text-align:center;
+}
+table
+{
+width:1000px;
+height:500px;
+margin-left:5%; 
+}
+
+
